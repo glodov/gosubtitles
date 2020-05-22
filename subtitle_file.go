@@ -54,3 +54,11 @@ func (me *SubtitleFile) Load(path string) []Subtitle {
 
 	return me.Rows
 }
+
+func (me SubtitleFile) Output() string {
+	result := ""
+	for _, row := range me.Rows {
+		result = result + row.Format()
+	}
+	return result
+}
