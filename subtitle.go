@@ -11,6 +11,9 @@ import (
 	"strings"
 )
 
+// SubtitleFormat is default file subtitle format
+var SubtitleFormat = "sbv"
+
 // Subtitle structure
 type Subtitle struct {
 	TimeFrom float64
