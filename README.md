@@ -1,0 +1,2 @@
+# gosubtitles
+Subtitles manager
